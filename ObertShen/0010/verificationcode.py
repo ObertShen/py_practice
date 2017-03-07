@@ -10,13 +10,11 @@ import string
 import random
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
-string.letters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
-
 # 该函数用于生成随机字符串
 def _random_char():
-    return random.choice(string.letters)
+    return random.choice(string.ascii_letters)
 
-#  用于生成随机颜色:
+#  用于生成背景的随机颜色:
 def _random_color():
     return (random.randint(64, 255), random.randint(64, 255), random.randint(64, 255))
 
