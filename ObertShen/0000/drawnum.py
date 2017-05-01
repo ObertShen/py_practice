@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*
 
-"""Python 练习册 仓库地址https://github.com/ObertShen/show-me-the-code"""
+"""Python 练习册 仓库地址https://github.com/ObertShen/py_practice"""
 
 __author__ = 'Shen'
 
